@@ -104,8 +104,8 @@
      align-items: center;
      gap: 40px;
      padding: 20px;
-     background-color: #91282F;
-     background-color: #330002;
+     background: linear-gradient(89.95deg, #91282F 0.44%, #330002 98.92%);
+
    }
    
    .conteudo {
@@ -123,6 +123,7 @@
    .box1 p {
      color: #fff;
      margin: 0;
+     
    }
    
    .btn1 {
@@ -145,7 +146,43 @@
      max-width: 500px;
      height: auto;
    }
-   
    .footer{
-     background-color: #fff;
-   }
+    background-color: #fff;
+    text-align: center;
+    color: #333;
+    border-top: 1px solid #ccc;
+    padding: 20px 10px;
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, ARIAL, sans-serif;
+
+  }
+  .rodape{
+    width: 1296px;
+    height: 170px;
+    display: block;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;   
+  }
+  .rodape .imge{
+    text-align: center;
+    margin: 20px;
+  }
+  p{
+    font-size: 13px;
+    text-align: center;
+    margin: 20px;
+  }
+  .lista ul{
+    list-style:none;
+    display: inline-flex;
+    justify-content: space-between;
+
+  }
+  .lista a{
+    color: #020202;
+    text-decoration: none;
+    
+
+
+  }
